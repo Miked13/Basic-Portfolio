@@ -1,0 +1,25 @@
+header{
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: #cccccc;
+}
+h1{
+    color: white;
+    background-color: #4aaaa5;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+}
+footer{
+    background-color: #666666;
+    color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
