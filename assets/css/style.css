@@ -1,18 +1,124 @@
 header{
-    background-color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-color: #cccccc;
+    background: #ffffff;
+    display: inline-block;
+    border-bottom: 1px solid #777777;
+    margin-bottom: 30px;
+    width: 100%;
 }
-h1{
+.header_content{
+    width:960px;
+    margin: 0 auto;
+}
+header h1{
+    color: white;
+    background: #4aaaa5;
+    display: inline-block;   
+    padding: 40px;
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+nav{
+    width: 260px;
+    float: right;
+    margin-top: 25px;
+    text-align: center;
+}
+nav a{
+    font-size: 23px;
+    color: #777777;
+    text-decoration: none;
+}
+a:link{
+    color: #777777;
+}
+a:visited{
+    color: powderblue;
+}
+a:hover{
     color: white;
     background-color: #4aaaa5;
+}
+a:active{
+    color: purple;
+}
+
+body{
+    background: url("../images/wall4.png") repeat;
+font-family: Arial, Helvetica, sans-serif;
+overflow: auto;
+color: #777777;
 }
 main{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-color: #ffffff;
     border-color: #dddddd;
+    border: 0 solid #777777;
+    height: 350px;
     width: 960px;
+    margin: auto;
+}
+main h2{
+    font-size: 23px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #777777;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#profile_pic{
+    margin-left: 50px;
+    margin-right: 20px;
+    float: left;
+}
+
+p{
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.gallery{
+    border: 0;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div.portfolio_name{
+    background-color: #4aaaa5;
+    color: white;    
+}
+form label{
+    display: block;
+    margin-left: 50px;
+    font-size: 15px;
+}
+form input{
+    width: 89%;
+    display: block;
+    margin-left: 50px;
+}
+form textarea{
+    width: 89%;
+    display: block;
+    margin-left: 50px;
+    height: 100px;
+}
+form button{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 19px;
 }
 footer{
     background-color: #666666;
@@ -22,4 +128,5 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
+    clear: both;
 }
